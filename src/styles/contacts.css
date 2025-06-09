@@ -1,0 +1,36 @@
+.contacts-block {
+    margin-top: 200px;
+    width: 100%;
+}
+
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contacts-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.contacts-item svg {
+
+}
+
+.contacts-item a {
+    font-family: 'Montserrat';
+    font-weight: var(--fw-regular);
+    font-size: 1.75rem;
+    letter-spacing: 0.05em;
+}

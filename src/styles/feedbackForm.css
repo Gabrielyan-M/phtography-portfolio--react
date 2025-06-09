@@ -1,0 +1,125 @@
+.feedback-form-block {
+    width: 100vw;
+    height: max-content;
+    padding: 60px 0px;
+    background-color: #EDE7DF;
+    margin-top: 200px;
+}
+
+.feedback-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-form-container p{
+    font-weight: var(--fw-medium);
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.form-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 100%;
+    max-width: 500px;
+}
+
+form > input{
+    width: 100%;
+    height: 60px;
+    border: 1px solid white;
+    background-color: unset;
+    padding-left: 20px;
+    
+}
+
+form > input:focus{
+    border: none;
+}
+/* 
+input[type="number"] {
+  -moz-appearance: textfield;
+} */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+form > input::placeholder{
+    font-family: 'Montserrat';
+    font-weight: var(--fw-regular);
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.checkbox-block {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.checkbox-block input{
+    width: 19px;
+}
+
+.checkbox-block label{
+    font-family: 'Montserrat';
+    font-weight: var(--fw-regular);
+    font-size: 1rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-block label span a{
+    font-family: 'Montserrat';
+    font-weight: var(--fw-regular);
+    font-size: 1rem;
+    text-decoration-line: underline;
+    margin-left: 4px;
+}
+
+form button {
+    
+    width: 100%;
+    height: 60px;
+    background-color: white;
+
+    font-family: 'Montserrat';
+    font-weight: var(--fw-regular);
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+
+    transition: background-color 0.3s;
+}
+
+
+
+@media (hover:hover) {
+    form button:hover {
+        background-color: rgb(241, 241, 241);
+    }
+}
+
+@media (hover:none) {
+    form button:active {
+        background-color: rgb(241, 241, 241);
+    }
+}

@@ -1,0 +1,13 @@
+.bio-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-top: 100px;
+}
+.bio-text-container p {
+    font-style: normal;
+    font-weight: var(--fw-regular);
+    font-size: clamp(0.875rem, 0.5205rem + 1.2329vw, 2rem);
+    letter-spacing: 0.05em;
+}

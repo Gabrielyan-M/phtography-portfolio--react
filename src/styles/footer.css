@@ -1,0 +1,30 @@
+footer {
+    background-color: hsl(36, 50%, 4%);
+    margin-top: 220px;
+    padding: 50px 0px;
+}
+
+.footer-block {
+    width: 100%;
+}
+
+.footer-container {
+    width: 100%;
+    gap: 60px;
+}
+
+.footer-container p {
+    color: white;
+    font-weight: var(--fw-regular);
+    font-size: clamp(0.725rem, 0.4808rem + 0.8493vw, 1.5rem);
+    letter-spacing: 0.12em;
+    text-align: center;
+}
+
+footer nav {
+    position: unset;
+}
+
+footer nav ul {
+    align-items: center;
+}

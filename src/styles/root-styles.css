@@ -1,0 +1,27 @@
+@import url('./fonts/stylesheet.css');
+
+:root {
+    --fw-light: 300;
+    --fw-regular: normal;
+    --fw-medium: 500;
+    --fw-semiBold: 600;
+} 
+
+.center-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleSection {
+    font-weight: var(--fw-medium);
+    font-size: 2rem;
+    letter-spacing: 0.05em;  
+}

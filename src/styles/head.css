@@ -1,0 +1,74 @@
+/* head.jsx */
+#headBlock {
+    position: relative;
+    height: 100dvh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../media/head-bg-img-desktop.webp);
+    background-blend-mode: normal, luminosity;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* header.jsx */
+.header-block {
+    width: 100%;
+}
+
+.header-container {
+    position: relative;
+    padding-top: 50px;
+}
+
+.header-container svg {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.header-container h1 {
+    font-family: 'Seaweed Script';
+    font-size: clamp(1.5rem, 1.3425rem + 0.5479vw, 2rem);
+    color: white;
+    letter-spacing: 0.12em;
+}
+
+
+
+/* navigations.jsx */
+
+.head-container nav {
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+nav a {
+    font-size: 1.5rem;
+    font-weight: var(--fw-light);
+    color: white;
+    letter-spacing: 0.12em;
+}
+
+
+@media (hover:hover) {
+    nav a:hover {
+        color: #E6DDD2;
+        transition: 0.2s;
+    }
+}
+
+@media (hover:none) {
+    nav a:active {
+        color: #E6DDD2;
+        transition: 0.2s;
+    }
+}

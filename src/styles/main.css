@@ -1,0 +1,40 @@
+@import url('./fonts/stylesheet.css');
+
+
+html {
+    background-color: #E6DDD2;
+}
+
+.quote-block {
+    position: relative;
+    margin-top: 200px;
+}
+.quote-block img {
+    width: 100vw;
+    height: 100dvh;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.quote {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.quote p {
+    width: max-content;
+    text-align: center;
+    font-weight: var(--fw-medium);
+    font-size: clamp(1.5rem, 0.7123rem + 2.7397vw, 4rem);
+    color: white;
+    letter-spacing: 0.2em;
+}
+.quote p:nth-child(2) {
+    width: auto;
+    text-align: end;
+    font-size: clamp(0.875rem, 0.5205rem + 1.2329vw, 2rem);
+    letter-spacing: 0em;
+    margin-top: 2.6vw;
+}
+
